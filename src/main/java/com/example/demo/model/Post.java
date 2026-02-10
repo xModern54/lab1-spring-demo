@@ -4,7 +4,6 @@ public class Post {
     private final String text;
     private final Integer likes;
 
-    // Constructor required by assignment: allows setting the post text.
     public Post(String text) {
         this(text, 0);
     }
@@ -22,4 +21,3 @@ public class Post {
         return likes;
     }
 }
-
